@@ -38,20 +38,3 @@ const Blogs = ({ title, blogs }) => {
 
 export default Blogs;
 
-// const handleDelete = (id) => {
-//   const newBlogs = blogs.filter((_, i) => i !== id);
-//   setBlogs(newBlogs);
-// };
-{
-  /* <button
-  className="text-slate-100 px-4 rounded-2xl bg-red-400 text-sm hover:bg-red-500"
-  onClick={() => handleDelete(blog.id)}
->
-  Delete
-</button> */
-}
-{
-  /* <p className="m-5 text-justify text-lg text-limi-to-two-line">
-                    {blog.body}
-                  </p> */
-}
