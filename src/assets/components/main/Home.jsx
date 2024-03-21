@@ -22,6 +22,8 @@ const Home = () => {
           </div>
         )}
         <Blogs blogs={blogs} title={"All blogs !"} />
+        <Blogs blogs={blogs && blogs.filter((blog) => blog.author === 'Solulu') } title={"Solulu's blogs!"} />
+        <Blogs blogs={blogs && blogs.filter((blog) => blog.author === 'Delulu') } title={"Delulu's blogs!"} />
       </div>
     </>
   );

@@ -13,12 +13,12 @@ const NavBar = () => {
           </div>
           <span>|</span>
           <div className="mx-5">
-          < Link to="/create-blog">Create Blog</Link>
+          < Link to="/create-blog"> Create New Blog</Link>
           </div>
-          <span>|</span>
+          {/* <span>|</span>
           <div className="ml-5">
           < Link>Contact</Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
