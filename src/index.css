@@ -4,10 +4,10 @@
 
 @layer base {
     :root{
-      background-color: #e3dada ;
+      background-color: #41B3A3 ;
       color:  #191919;
     }
-    .text-limi-to-two-line{
+    .text-limit-to-two-line{
       overflow: hidden;
        text-overflow: ellipsis;
        display: -webkit-box;
